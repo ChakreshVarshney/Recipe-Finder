@@ -1,0 +1,26 @@
+.heading {
+    height: 10vh; /* Sets the height to 1/10th of the viewport height */
+    width: 100%; /* Sets the width to cover the entire viewport width */
+    background-color: rgb(241, 124, 124); /* Sets the background color to light mahroon */
+    font-weight: bold; /* Makes the font bold */
+    color: black; /* Sets the font color to black */
+}
+
+/* Styles for the search bar */
+.searchBar {
+    background-color: rgb(247, 186, 186); /* Light red color */
+    height: 20vh; /* 1/5th of the screen height */
+    width: 100%; /* Whole width of the screen */
+    display: flex;
+    align-items: center;
+    padding: 0 20px; /* Padding for some space inside the search bar */
+}
+
+/* Styles for the input field */
+.search-bar input[type="text"] {
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: smaller; /* Font size less than heading */
+    color: black; /* Font color black */
+}
